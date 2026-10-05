@@ -46,9 +46,7 @@ dependencies {
     implementation("com.google.code.gson:gson:2.11.0")
     implementation("org.jsoup:jsoup:1.18.1")
 
-    // NOTE:
-    // Untuk build nyata di environment Aniyomi/Tachiyomi,
-    // tambahkan dependency source-api / extension-api yang sesuai.
+    // Tambahkan dependency ini bila Anda mau build dalam environment resmi Aniyomi/Tachiyomi
     // implementation("eu.kanade.tachiyomi:source-api:1.x.x")
     // implementation("eu.kanade.tachiyomi:extension-api:1.x.x")
 }

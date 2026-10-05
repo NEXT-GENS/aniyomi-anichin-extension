@@ -4,5 +4,5 @@ data class Episode(
     val id: String,
     val number: Int,
     val title: String,
-    val href: String
+    val url: String
 )

@@ -16,7 +16,7 @@ class AnichinApi(
         .followRedirects(true)
         .build()
 ) {
-    private val baseUrl = "https://www.anichin.id"
+    private val baseUrl = "https://anichin.moe"
 
     fun fetchPopular(page: Int): List<Anime> {
         val url = "$baseUrl/anime/page/$page/?sort=popular"
